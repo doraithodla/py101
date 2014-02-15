@@ -1,0 +1,28 @@
+01-variables.py
+02-boolean.py
+c2f.py
+countlines.py
+countwords.py
+dict-does not work.py
+dict1.py
+dict2.py
+dirsys-pprint.py
+dirsys.py
+dirsys2.py
+factorial.py
+fib1.py
+fib2.py
+fibonacci.py
+
+
+
+print.py
+printlines.py
+
+
+
+testtime.py
+webpage.py
+
+
+               0 Dir(s)  196,110,737,408 bytes free

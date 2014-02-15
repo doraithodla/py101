@@ -1,0 +1,85 @@
+1. Revise previous concepts
+2. Show examples of list and slice
+3. Introduce dictionaries
+4. Lab - Modify dict2 program (to print only words greater than average word length)
+5.
+
+
+
+simple-strings.py
+strings2.py                 
+longstrings.py
+slicing.py                  
+split.py
+stringfunctions.py          
+strings.py
+
+== Command Line Arguments --
+
+
+sysargs.py                  
+sysargs2.py
+
+-- Loops --
+
+while.py
+
+-- Conditionals --
+ifelse.py
+ifmultiple.py               
+
+-- Dictionaries --
+dict1.py                    
+dict2.py
+histogram.py                
+wfq.py
+wordcount.py                
+ 
+-- lists -- 
+lists.py                    
+
+-- Files and input/ouput --
+input-output.py
+fileread.py
+files.py                    
+print.py
+printlines.py               
+readlines.py                
+
+-- Functions --
+
+function.py                 
+function2.py
+functions.py                
+
+-- Recursion --
+factorial.py
+fib1.py                
+fib2.py
+
+-- Python terms --
+glossary.py
+keywords.py           
+
+-- Modules --
+module1.py   
+
+-- Turtle Graphics -- 
+               
+pattern1.py
+polygon.py                  
+squares.py              
+random.py
+turtledemo.py   
+
+
+
+tkinter1.py                 
+turtle1.py
+            
+-- Variables --
+
+variables.py
+
+-- Web --
+webpage.py                  

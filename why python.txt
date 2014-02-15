@@ -1,0 +1,24 @@
+Why Python ?
+
+Simple
+
+Multiple Programming Paradigms - imperative, object oriented, functional
+
+Popular -  Google, NASA, Nokia and thousands of other orgs
+
+Good for System Administration, Tool Development
+
+Great Libraries - numpy, scipy, simpy, nltk, pygame, turtle, ...
+
+Command Line
+
+Interpreter and Just in time Compiler
+
+Interactive
+
+Very High Level Language (VHLL)
+
+Taught as a first language in MIT, Berkeley and other big Universities (replaced Java)
+
+
+
