@@ -1,5 +1,7 @@
-# cleanwords.py
-# create a list of words with punctuation removed
+# wfq2.py
+# Generate a word frequency table from the text in a given file
+
+impor sys
 
 import string   # string module defines punctuations
 wfqt={}         # word frequencey table an empty dictionary
@@ -11,7 +13,7 @@ def addtoD(w, t):
     else:
         t[w] =1
 
-text = open('webpage.txt').read()
+text = open(sys.argv[1]).read()
 for word in text.split():
     # remove punctuations and whitespace
     if word.strip(string.punctuation+string.whitespace):
