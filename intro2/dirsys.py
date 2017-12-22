@@ -3,5 +3,6 @@ Print the directory of a module. It is easy to inspect a module and print out al
 '''
 
 import sys
+
 for i in dir(sys):
-   print i
+    print(i)

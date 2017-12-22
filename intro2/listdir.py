@@ -4,13 +4,12 @@ import sys
 import os
 
 try:
-	dirpath = sys.argv[1]
+    dirpath = sys.argv[1]
 except:
-	dirpath = ".."
+    dirpath = ".."
 
 list = os.listdir(dirpath)
-print 
+print()
 
 for i in list:
-    print i
-
+    print(i)

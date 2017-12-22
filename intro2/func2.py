@@ -2,6 +2,6 @@
 # Function as a parameter to function
 
 def hello(name):
-    print "\nHello " + name +". How are you?"
+    print ("\nHello " + name +". How are you?")
 
-hello(raw_input("Please tell me your name:"))
+hello(input("Please tell me your name:"))

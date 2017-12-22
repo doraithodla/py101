@@ -2,10 +2,9 @@
 
 import os
 
-print os.getenv.__doc__
-print
+print (os.getenv.__doc__)
 
 for var in  os.getenv('path').split(';'):
-    print var
+    print (var)
 
 
