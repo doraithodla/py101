@@ -11,21 +11,22 @@
 
 import sqlite3
 
-conn = sqlite3.connect('knowledge.db')
+db_name = 'knowledge.db' 
+conn = sqlite3.connect(db_name)
 cur = conn.cursor()
 
 while True:
-	question=raw_input("Question : ")
-	answer = raw_input("New Answer : ")
+	question=input("Question : ")
 	if len(question) > 0:
-		#statement = "select question, answer from qa where question = '"+question+"'"
+		answer = input("New Answer : ")
 		cur.execute("select answer from qa where question = ?", [question])
-		row = cur.fetchone()
-		print row
+		row = cur.fetchone()[0]
+		print ("OLD VALUE : ", row)
 		cur.execute("UPDATE qa SET answer=? WHERE question=?", (answer, question)) 
 		conn.commit()
-		break
-		
+		cur.execute("select answer from qa where question = ?", [question])
+		row = cur.fetchone()[0]
+		print ("UPDATED VALUE : ", row)
 	else:
 		break
 

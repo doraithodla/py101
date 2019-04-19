@@ -18,8 +18,8 @@ for row in cur:
 	for field in row:
 		# convert unicode data to ascii
 		field.encode('ascii','ignore')
-		print field,
-	print
+		print (field)
+	print()
 
 
 
