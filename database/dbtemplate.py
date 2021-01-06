@@ -6,11 +6,11 @@
  perform your database operations (select, insert,delete, update, create, drop)
  close the connection
 '''
-
-
 import sqlite3
 
-conn = sqlite3.connect('knowledge.db')
+
+db_name = 'knowledge.db'
+conn = sqlite3.connect(db_name)
 cur = conn.cursor()
 
 '''

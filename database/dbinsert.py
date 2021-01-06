@@ -14,11 +14,11 @@ conn = sqlite3.connect('knowledge.db')
 cur = conn.cursor()
 
 while True:
-	question = raw_input("Question: ")
+	question = input("Question: ")
 	if len(question) == 0:
 		break
 	else:
-		answer = raw_input("Answer: ")
+		answer = input("Answer: ")
 		cur.execute ('insert into qa (question, answer) values (?,?)',
 			(question, answer))
 		conn.commit()
