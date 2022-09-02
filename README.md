@@ -1,15 +1,13 @@
 py101
 =====
 
-Introduction to Python - Typically a two day workshop for beginners in programming
+Introduction to Python - Typically a 4 to 8 session workshop (about 16 hours)
+
+Python Resources (books, tutorials and practice problems)
+
+https://www.doraithodla.com/resource-links/python-resources-home/
 
 
-Drawing:
-We use turtle.py. Please see the tutorial at:
-https://www.cs.utexas.edu/~byoung/cs313e/slides3-turtle.pdf
-
-Reading material
-http://dorai.me/resource-links/python-resources-home/python-learning-material/
 
 
 
